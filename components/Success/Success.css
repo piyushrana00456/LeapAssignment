@@ -1,0 +1,33 @@
+.successBg {
+    background: linear-gradient(133.78deg, #9492FF 0%, #302E99 102.13%);
+}
+.gradient-text {
+    background: linear-gradient(90deg, #9492FF 0%, #100F33 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;     /* Fallback */
+  }
+.simple-text{
+   color: #656E7F;
+}  
+
+.Logocontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(3, auto);   /* 3 rows */
+    gap: 20px; /* space between the grid items */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
