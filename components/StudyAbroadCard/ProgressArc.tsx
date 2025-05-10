@@ -7,7 +7,6 @@ interface ProgressArcProps {
 }
 
 export default function ProgressArc({ progress }: ProgressArcProps) {
-  // SVG path for a curved arc - adjusted to be more subtle
   const arcPath = "M10,60 Q100,0 190,60"
 
 
@@ -16,14 +15,14 @@ export default function ProgressArc({ progress }: ProgressArcProps) {
       <svg width="80%" height="100%" viewBox="0 0 200 60" preserveAspectRatio="none" className="absolute top-0">
         {/* Gradient definitions */}
         <defs>
-          <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y1="0%">
+          <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stopColor="#e0e7ff"  stopOpacity="0.1"/>
             <stop offset="20%" stopColor="#4f46e5" stopOpacity="1" />
             <stop offset="80%" stopColor="#4f46e5" stopOpacity="1"/>
             <stop offset="100%" stopColor="#e0e7ff" stopOpacity="0.1" />
           </linearGradient>
 
-          <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y1="0%">
+          <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stopColor="#f5f5f5" />
             <stop offset="20%" stopColor="#E5E7EB" />
             <stop offset="80%" stopColor="#E5E7EB" />

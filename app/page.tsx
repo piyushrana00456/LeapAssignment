@@ -4,6 +4,7 @@ import Supports from "@/components/Supports/Supports"
 import UniversityCarousel from "@/components/UniversityCarousel"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import Success from "@/components/Success"
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className="w-full max-w-md px-4 pt-8 pb-7">
         <Explore/>
+      </div>
+      <div className="w-full max-w-md px-4 pt-8 pb-7">
+        <Success/>
       </div>
       <Footer/>
     </main>
