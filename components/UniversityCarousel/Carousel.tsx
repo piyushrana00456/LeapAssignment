@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { MoveLeft, MoveRight } from "lucide-react"
 import CarouselCard from "./CarouselCard"
 import type { CarouselProps } from "./Carousel.types.ts"
 
@@ -72,14 +72,14 @@ export default function Carousel({ universities, title, description }: CarouselP
             className="p-3 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
             aria-label="Previous university"
           >
-            <ChevronLeft size={24} />
+            <MoveLeft size={24} />
           </button>
           <button
             onClick={handleNext}
             className="p-3 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
             aria-label="Next university"
           >
-            <ChevronRight size={24} />
+            <MoveRight size={24} />
           </button>
         </div>
       </div>

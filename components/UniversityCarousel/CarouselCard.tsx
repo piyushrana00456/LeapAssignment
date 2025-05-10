@@ -43,9 +43,9 @@ export default function CarouselCard({ university, isActive }: CarouselCardProps
           <span className="text-white text-sm font-medium">{university.admitCount}+ Leap admits</span>
           <div className="flex ml-2">
             {/* Avatar circles */}
-            <div className="w-6 h-6 rounded-full bg-blue-400 border-2 border-white -mr-1"></div>
-            <div className="w-6 h-6 rounded-full bg-purple-400 border-2 border-white -mr-1"></div>
-            <div className="w-6 h-6 rounded-full bg-green-400 border-2 border-white"></div>
+            <div className="w-4 h-4 rounded-full bg-blue-400 border-2 border-white -mr-1"></div>
+            <div className="w-4 h-4 rounded-full bg-purple-400 border-2 border-white -mr-1"></div>
+            <div className="w-4 h-4 rounded-full bg-green-400 border-2 border-white"></div>
           </div>
         </div>
       </div>
