@@ -113,6 +113,12 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      gridTemplateRows: {
+        '2-custom': 'repeat(2, minmax(0, 0.5fr));',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(133.53deg, #FBFCFD 0%, #E1E0FF 100%)',
+      },
     },
   },
   plugins: [],
