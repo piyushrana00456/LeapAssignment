@@ -17,9 +17,9 @@ A modern web application built with **Next.js**, **TypeScript**, and **Tailwind 
 
 Clone the repository and install dependencies:
 
--git clone https://github.com/piyushrana00456/LeapAssignment.git
--cd LeapAssignment
--npm install --legacy-peer-deps
+-[git clone](#https://github.com/piyushrana00456/LeapAssignment.git)
+-[cd LeapAssignment]
+-[npm install --legacy-peer-deps]
 
 ---
 
@@ -27,19 +27,6 @@ Clone the repository and install dependencies:
 
 Start the development server:
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
-
----
-
-## Project Structure
-LeapAssignment/
-├── components/ # Reusable UI components
-├── pages/ # Next.js pages
-├── public/ # Static assets
-├── styles/ # Tailwind and global CSS
-├── tsconfig.json # TypeScript configuration
-├── tailwind.config.js # Tailwind CSS configuration
-└── ...
-
 
 ---
 
